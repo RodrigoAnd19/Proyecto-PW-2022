@@ -7,6 +7,11 @@ import Information from './components/Tutores/Informacion/Informacion';
 import Cursos from './components/Cursos/Cursos';
 import FAQ from './components/FAQ/FAQ';
 import Subtema from './components/Cursos/Subtemas/Subtema';
+import Subtema1 from './components/Cursos/Subtemas/Subtema1';
+import Subtema2 from './components/Cursos/Subtemas/Subtema2';
+import Subtema3 from './components/Cursos/Subtemas/Subtema3';
+import Subtema4 from './components/Cursos/Subtemas/Subtema4';
+import Subtema5 from './components/Cursos/Subtemas/Subtema5';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -26,6 +31,11 @@ function App() {
           <Route path='cursos' index element={ <Cursos /> } />
           <Route path='faq' index element={ <FAQ /> } />
           <Route path='sub' index element={ <Subtema /> } />
+          <Route path='sub1' index element={ <Subtema1 /> } />
+          <Route path='sub2' index element={ <Subtema2 /> } />
+          <Route path='sub3' index element={ <Subtema3 /> } />
+          <Route path='sub4' index element={ <Subtema4 /> } />
+          <Route path='sub5' index element={ <Subtema5 /> } />
         </Routes>
 
     </div>

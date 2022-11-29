@@ -18,13 +18,13 @@ const Cursos = () => {
                         <li className="topic"><a href="#">PROGRAMACIÓN WEB</a>
                             <ul className="sub-topic">
                                 <li><a href="#" onClick={ () => navigate("/sub") }>JavaScript</a></li>
-                                <li><a href="#">Python</a></li>
+                                <li><a href="#" onClick={ () => navigate("/sub1") }>Python</a></li>
                             </ul>
                         </li>
                         <li className="topic"><a href="#">ADMIN. DE BASE DE DATOS</a>
                             <ul className="sub-topic">
-                                <li><a href="#">Maria DB</a></li>
-                                <li><a href="#">Mongo DB</a></li>
+                                <li><a href="#" onClick={ () => navigate("/sub2") }>Maria DB</a></li>
+                                <li><a href="#" onClick={ () => navigate("/sub3") }>Mongo DB</a></li>
                             </ul>
                         </li>
                         <li className="topic"><a href="#">CALCULO 3</a>
@@ -35,8 +35,8 @@ const Cursos = () => {
                         </li>
                         <li className="topic"><a href="#">Medicina</a>
                             <ul className="sub-topic">
-                                <li><a href="#">Covid 19</a></li>
-                                <li><a href="#">Ebola</a></li>
+                                <li><a href="#" onClick={ () => navigate("/sub4") }>Covid 19</a></li>
+                                <li><a href="#" onClick={ () => navigate("/sub5") }>Ebola</a></li>
                             </ul>
                         </li>
                     </ul>

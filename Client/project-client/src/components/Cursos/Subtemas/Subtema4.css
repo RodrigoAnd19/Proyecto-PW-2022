@@ -1,0 +1,72 @@
+
+.subtema-container {
+    height: 83vh;
+    padding: 2rem;
+    background-color: #E3EBF2;
+}
+
+.subtema-view {
+    padding: 3rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.subtema-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.arrow-img {
+    height: 55px;
+    width: 55px;
+}
+
+.play-div {
+    padding: 0 8rem 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.play {
+    background-color: #E3EBF2;
+    padding: 30px;
+    border-radius: 50%
+}
+.play-img {
+    width: 100%;
+    height: 100%;
+}
+
+.subtema-text {
+    padding: 1rem 3rem 1rem 6rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+
+    text-align: justify;
+}
+
+.subtema-text2 {
+    padding: 1rem 3rem 1rem 6rem;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 50px;
+
+    text-align: justify;
+}
