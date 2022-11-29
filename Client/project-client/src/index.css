@@ -1,0 +1,13 @@
+
+
+:root {
+    
+    box-sizing: border-box;
+    background-color: #E3EBF2;
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}

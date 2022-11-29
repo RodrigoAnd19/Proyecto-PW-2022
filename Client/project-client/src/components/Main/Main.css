@@ -1,0 +1,58 @@
+
+.main-container {
+    min-height: 100vh;
+    padding: 2rem 0 0 2rem;
+    background-color: #E3EBF2;
+}
+
+.main-view {
+    display: flex;
+    align-items: center;
+}
+
+.figure {
+    width: 50%;
+    height: 40%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.important-div-x {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.master {
+    font-family: 'Script MT Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+}
+
+.class {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 131px;
+    text-align: center;
+}
+
+.cursos-button {
+    width: 40%;
+    height: 60%;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border-style: none;
+    background-color: #C4DFE6;
+    font-size: xx-large;
+    font-weight: 900;
+}

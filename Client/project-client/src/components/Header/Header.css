@@ -1,0 +1,78 @@
+@import '../../_variables.css';
+
+.header {
+    padding: 1rem 1rem 0 1rem;
+    background-color: #E3EBF2;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.div {
+    width: 100%;
+    padding: 0.9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 4rem;
+    background-color: #07575B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.specific-button {
+    color: #C4DFE6;
+    background-color: #07575B;
+
+    border-radius: 4rem;
+    border-color: #07575B;
+    border-style: none;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    height: 60px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.specific-button:hover {
+    background-color: #C4DFE6;
+    color: #07575B;
+}
+
+.specific-button:focus {
+    background-color: #C4DFE6;
+    color: #07575B;
+}
+
+
+.image-container {
+    width: 10%;
+    height: 10%;
+    background: #07575B;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background: #07575B;
+}
+
+.oculto {
+    display: none;
+}

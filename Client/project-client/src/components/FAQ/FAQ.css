@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+.faq-container {
+    height: 84.1vh;
+}
+
+.faq-view {
+    padding: 4rem 0 4rem 8rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.faq-tittle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.faq-subtittle {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.faq-text {
+    padding: 0 6rem 0 2rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    /* or 156% */
+    
+    text-align: justify;
+}
